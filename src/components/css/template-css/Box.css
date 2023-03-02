@@ -1,0 +1,101 @@
+@media(min-width: 835px){
+  main {
+    background-color: #FAFAFA;
+  }
+
+  .Profile {
+    margin-bottom: 40px;
+  }
+
+  .Contact {
+    margin-bottom: 40px;
+  }
+
+
+  .i {
+    display: flex;
+    gap: 40px;
+  }
+
+  .box1 {
+    gap: 40px;
+    justify-content: space-between;
+    width: 724px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .box1-About {
+    justify-content: space-between;
+    width: 724px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 80px;
+  }
+
+  .Github {
+    margin-bottom: 40px;
+  }
+
+  .Star {
+    margin-bottom: 40px;
+  }
+
+  .Contact-All-Works {
+    margin-bottom: 80px;
+  }
+}
+
+@media(max-width: 834px){
+  main {
+    background-color: #FAFAFA;
+
+  }
+
+  .box1 {
+    gap: 16px;
+    justify-content: space-between;
+    width: 342px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .box1-About {
+    width: 342px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-bottom: 80px;
+  }
+
+  .i {
+    display: flex;
+    gap: 16px;
+  }
+
+  .Profile {
+    margin-bottom: 16px;
+  }
+
+  .Contact {
+    margin-bottom: 16px;
+  }
+
+  .KazumabooksMobile {
+    margin-bottom: 16px;
+  }
+
+  .Github {
+    margin-bottom: 16px;
+  }
+
+  .Star {
+    margin-bottom: 16px;
+  }
+
+  .Contact-All-Works {
+    margin-bottom: 80px;
+  }
+}

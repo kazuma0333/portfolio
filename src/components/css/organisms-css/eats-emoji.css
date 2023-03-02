@@ -1,0 +1,115 @@
+.eats-img{
+    display: none;
+}
+
+.eats-img163{
+    display: none;
+}
+
+@media (min-width: 835px){
+.eats {
+    position: relative;
+    width: 342px;
+    height: 342px;
+}
+
+.eats-img{
+    width: 342px;
+    height: 342px;
+    border-radius: 30px;
+    display: block;
+}
+
+.imgEats-left {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+ 	overflow: hidden;
+ 	z-index: 1;
+}
+
+.imgEats-left::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #87d0b8;
+	transform: translateX(-100%);
+	transition: all .3s;
+	z-index: -1;
+}
+
+.imgEats-left:hover::before {
+	transform: translateX(0);
+}
+
+.imgEats-left:hover {
+	color: rgb(255, 255, 255);
+}
+}
+
+@media (max-width: 834px){
+    .eats {
+        position: relative;
+        width: 163px;
+        height: 342px;
+    }
+    
+    .eats-img163{
+        width: 163px;
+        height: 342px;
+        border-radius: 30px;
+        display: block;
+    }
+    
+    .imgEats-left {
+        position: absolute;
+        bottom: 16px;
+        left: 16px;
+        font-weight: 600;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+        width: 32px;
+        height: 32px;
+        text-align: center;
+        line-height: 32px;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        text-decoration: none;
+         overflow: hidden;
+         z-index: 1;
+    }
+    
+    .imgEats-left::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #87d0b8;
+        transform: translateX(-100%);
+        transition: all .3s;
+        z-index: -1;
+    }
+    
+    .imgEats-left:hover::before {
+        transform: translateX(0);
+    }
+    
+    .imgEats-left:hover {
+        color: rgb(255, 255, 255);
+    }
+}

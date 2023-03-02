@@ -1,0 +1,55 @@
+.main-opa {
+    display: none;
+}
+
+@media(min-width: 835px) {
+    .main-opa{
+        position: relative;
+        width: 342px;
+        height: 163px;
+        opacity: 20%;
+        display: block;
+    }
+
+    .main-opa img {
+        width: 342px;
+        height: 163px;
+        border-radius: 30px;
+    }
+
+    .bottom-left-opa {
+        position: absolute;
+        bottom: 16px;
+        left: 16px;
+        font-weight: 600;
+        background-color: #fff;
+        border-radius: 30px;
+        width: 32px;
+        height: 32px;
+        text-align: center;
+        line-height: 32px;
+        color: black;
+        cursor: pointer;
+        text-decoration: none;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .bottom-right-opa {
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+        font-weight: 600;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+        width: 136px;
+        height: 32px;
+        text-align: center;
+        line-height: 32px;
+        color: black;
+    }
+}
+
+@media(max-width: 834px) {
+
+}

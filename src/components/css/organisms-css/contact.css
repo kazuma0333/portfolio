@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Rampart+One&family=Train+One&family=Yusei+Magic&display=swap');
+
+p {
+    margin: 0;
+}
+
+.contact {
+    width: 724px;
+    height: 342px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.conatactText {
+    padding: 40px 40px 0 40px;
+}
+
+.CONTACT {
+    font-size: 36px;
+}
+
+.mainText {
+    text-align: center;
+    margin-top: 64px;
+}
+
+.email {
+    margin-top: 24px;
+}
+
+@media (max-width: 834px) {
+    p {
+        margin: 0;
+    }
+    
+    .contact {
+        width: 342px;
+        height: 342px;
+        border-radius: 30px;
+        background-color: #fff;
+    }
+    
+    .conatactText {
+        padding: 40px 40px 0 40px;
+    }
+    
+    .CONTACT {
+        font-size: 36px;
+    }
+    
+    .mainText {
+        text-align: center;
+        margin-top: 72px;
+    }
+
+    .mainText p {
+        font-size: 12px;
+    }
+    
+    .email {
+        margin-top: 24px;
+    }
+}
